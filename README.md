@@ -3,6 +3,11 @@
 Package for implementing different gamepads to use it in the ROS 2 Galactic roboTHIx environment.
 
 
+## Known Issues
+
+  -
+
+
 ## Prerequisites for PS 4 Gamepad
 
   - [`naoki-mizuno/ds4drv`](https://github.com/naoki-mizuno/ds4drv/tree/devel) (`devel` branch)
@@ -17,15 +22,23 @@ Package for implementing different gamepads to use it in the ROS 2 Galactic robo
     mkdir -p ~/ws_ds4_driver/src
     cd ~/ws_ds4_driver/src
     git clone https://github.com/naoki-mizuno/ds4_driver.git --branch foxy-devel
-    cd ws_ds4_driver
+    cd ~/ws_ds4_driver
     colcon build
     source install/setup.bash
     ```
 
 
-## Known Issues
+## Getting Started
 
-  -
+To pull packages, install dependencies, compile, and source the workspace
+```
+mkdir -p ~/ws_thi_joy
+cd ~/ws_thi_joy
+git clone https://github.com/roboTHIx/thi_joy.git
+cd ~/ws_thi_joy
+colcon build
+source install/setup.bash
+```
 
 
 ## Packages in the Repository
@@ -34,9 +47,6 @@ Package for implementing different gamepads to use it in the ROS 2 Galactic robo
   - `ps4_jogarm` controll a robotarm with the ps4 gamepad using moveit2
   - `ps4_joy` ps4 gamepads to joy output
   - `ps4_rviz` controll rviz view with the ps4 gamepads touchpad
-
-
-## Getting Started
 
 
 
