@@ -1,9 +1,9 @@
 # roboTHIx joy for ROS 2
 
-Package for implementing different controllers to use it in the ROS 2 Galactic roboTHIx environment.
+Package for implementing different gamepads to use it in the ROS 2 Galactic roboTHIx environment.
 
 
-## Prerequisites for PS 4 Controller
+## Prerequisites for PS 4 Gamepad
 
   - [`naoki-mizuno/ds4drv`](https://github.com/naoki-mizuno/ds4drv/tree/devel) (`devel` branch)
     ```
@@ -30,10 +30,10 @@ Package for implementing different controllers to use it in the ROS 2 Galactic r
 
 ## Packages in the Repository
 
-  - `ps4_cmd_vel` ps4 controller to cmd_vel output
-  - `ps4_jogarm` controll a robotarm with the ps4 contrller using moveit2
-  - `ps4_joy` ps4 controller to joy output
-  - `ps4_rviz` controll rviz view with the ps4 touchpad
+  - `ps4_cmd_vel` ps4 gamepad to cmd_vel output
+  - `ps4_jogarm` controll a robotarm with the ps4 gamepad using moveit2
+  - `ps4_joy` ps4 gamepads to joy output
+  - `ps4_rviz` controll rviz view with the ps4 gamepads touchpad
 
 
 ## Getting Started
@@ -46,5 +46,5 @@ Package for implementing different controllers to use it in the ROS 2 Galactic r
 
 ## Expected Changes in the Near Future
 
-  - Create packages for more controllers
+  - Create packages for more gamepads
   
