@@ -41,10 +41,11 @@ source install/setup.bash
 
 ## Packages in the Repository
 
-  - `ps4_cmd_vel` ps4 gamepad to cmd_vel output
-  - `ps4_jogarm` controll a robotarm with the ps4 gamepad using moveit2
-  - `ps4_joy` ps4 gamepads to joy output
-  - `ps4_rviz` controll rviz view with the ps4 gamepads touchpad
+  - `thi_ps4` 
+    - `ps4_cmd_vel` ps4 gamepad to cmd_vel output
+    - `ps4_jogarm` controll a robotarm with the ps4 gamepad using moveit2
+    - `ps4_joy` ps4 gamepads to joy output
+    - `ps4_rviz` controll rviz view with the ps4 gamepads touchpad
 
 
 
