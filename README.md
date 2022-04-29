@@ -32,9 +32,7 @@ Package for implementing different gamepads to use it in the ROS 2 Galactic robo
 
 To pull packages, install dependencies, compile, and source the workspace
 ```
-mkdir -p ~/ws_thi_joy
-cd ~/ws_thi_joy
-git clone https://github.com/roboTHIx/thi_joy.git
+git clone https://github.com/roboTHIx/thi_joy.git ws_thi_joy/src
 cd ~/ws_thi_joy
 colcon build
 source install/setup.bash
